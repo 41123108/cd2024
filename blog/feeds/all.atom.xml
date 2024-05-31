@@ -102,24 +102,38 @@
 &lt;p&gt;教學影片：&lt;/p&gt;
 &lt;iframe width="1120" height="631" src="https://www.youtube.com/embed/mx8A_qwlTik" title="cd2024 2a w2 3 如何建立各組的 Team midag1 並利用 Codespaces 維護內容 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;分組作業的 Classroom 連結&lt;/p&gt;</content><category term="四設二甲"></category><category term="分組"></category><category term="Codespaces"></category></entry><entry><title>W1</title><link href="https://41123108.github.io/cd2024/blog/W1%E5%85%A7%E5%AE%B9(%E4%B8%BB%E9%A1%8C%E5%90%8D%E7%A8%B1).html" rel="alternate"></link><published>2024-02-23T15:00:00+08:00</published><updated>2024-05-31T06:04:07+08:00</updated><author><name>41123108(作者)</name></author><id>tag:41123108.github.io,2024-02-23:/cd2024/blog/W1內容(主題名稱).html</id><summary type="html">&lt;p&gt;2024/02/23 課程內容-W1(摘要)&lt;/p&gt;
+&lt;p&gt;分組作業的 Classroom 連結&lt;/p&gt;</content><category term="四設二甲"></category><category term="分組"></category><category term="Codespaces"></category></entry><entry><title>W1</title><link href="https://41123108.github.io/cd2024/blog/W1%E5%85%A7%E5%AE%B9(%E4%B8%BB%E9%A1%8C%E5%90%8D%E7%A8%B1).html" rel="alternate"></link><published>2024-02-23T15:00:00+08:00</published><updated>2024-05-31T08:11:52+08:00</updated><author><name>41123108(作者)</name></author><id>tag:41123108.github.io,2024-02-23:/cd2024/blog/W1內容(主題名稱).html</id><summary type="html">&lt;p&gt;2024/02/23 課程內容-W1(摘要)&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024/02/23 課程內容-W1(摘要)&lt;/p&gt;
 
 
-&lt;h1&gt;建立個人倉儲&lt;/h1&gt;
-&lt;p&gt;41123108的&lt;a href="https://github.com/41123108/cd2024"&gt;Github連結&lt;/a&gt;
-依[https://github.com/mdecycu/cmsimde_site]做為Template(範本)建立個人倉儲&lt;/p&gt;
-&lt;h1&gt;加入課程Teams&lt;/h1&gt;
-&lt;p&gt;Team code: p0961sy&lt;/p&gt;
-&lt;h1&gt;Replit連結Github&lt;/h1&gt;
-&lt;p&gt;維護/推送/改版協同網站內容&lt;/p&gt;
-&lt;h1&gt;建立個人網誌&lt;/h1&gt;
+&lt;h1&gt;1.建立個人倉儲&lt;/h1&gt;
+&lt;p&gt;41123108&lt;a href="https://github.com/41123108/cd2024"&gt;Github連結&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;*補充細節(擷取自老師blog)：&lt;/p&gt;
+&lt;p&gt;登入 github.com, 連結到 https://github.com/mdecycu/cmsimde_site, 利用此倉儲作為 Template, 新增一個名稱為 cd2024 的倉儲, 並且將其 main 分支設為網頁根目錄.&lt;/p&gt;
+&lt;p&gt;https://github.com/mdecycu/cmsimde_site 與 https://github.com/mdecycu/cmsite 的差別為, 目前的 Template 將 cmsimde 當作目錄, 而非 cmsite 中的子模組.&lt;/p&gt;
+&lt;p&gt;上述建立個人課程 cd2024 倉儲與網站的操作影片, 建立的網站為：https://github.com/41123108/cd2024&lt;/p&gt;
+&lt;h1&gt;2.加入課程cd2024-Teams&lt;/h1&gt;
+&lt;p&gt;Team code: p0961sy
+&lt;a href="https://teams.microsoft.com/l/team/19%3AWmR48Le8_pC1F-V1UU4HTMuKE0PUC8eYA4pZsP0Icn81%40thread.tacv2/conversations?groupId=5f487589-fa28-471e-a083-f2ba6141545f&amp;amp;tenantId=e650a2d7-e923-45bb-8fa6-1af5b0f72f09"&gt;Teams連結&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;3.下載可攜套件檔案&lt;/h1&gt;
+&lt;p&gt;下載可攜程式環境: &lt;a href="http://229.cycu.org/portable_2024.7z"&gt;portable_2024.7z&lt;/a&gt; (需要密碼, 下載 540MB, 解開壓縮後約 1.8GB)&lt;/p&gt;
+&lt;p&gt;下載 miktex-portable.7z (需要密碼, 下載 167MB, 解開壓縮檔案後約 1GB)&lt;/p&gt;
+&lt;h1&gt;4.從 Replit Account 設定 Connect 連結到 Github使雙方互相信任&lt;/h1&gt;
+&lt;iframe src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=a5b04fd0-927e-4ed6-b6fa-38227c1d4a81&amp;embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&amp;referrer=StreamWebApp&amp;referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="cd2024_2b_2_如何從 Replit Account 設定 Connect 連結到 Github.mp4"&gt;&lt;/iframe&gt;
+
+&lt;h1&gt;5.靜態更新+推送&lt;/h1&gt;
+&lt;p&gt;將倉儲 import 至 Replit 改版後推回 github
+步驟：(1)Edit編輯-(2)更新內容-(3)Save儲存-(4)Convert轉靜態-(5)到Rrpit的Git-(6)簡述更新內容+提交-(7)push推到遠端-(8)Confirm確認推送改版    (remote遠端)&lt;/p&gt;
+&lt;iframe src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=6d180302-f0c4-4e49-8f37-99ac21124330&amp;embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&amp;referrer=StreamWebApp&amp;referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="cd2024_2b_4_說明如何將倉儲 import 至 Replit 改版後推回 github.mp4"&gt;&lt;/iframe&gt;
+
+&lt;h1&gt;6.建立個人網誌&lt;/h1&gt;
 &lt;p&gt;41123108&lt;a href="https://41123108.github.io/cd2024/blog/"&gt;網誌連結&lt;/a&gt;&lt;/p&gt;
-&lt;h1&gt;設定 Github 帳號的雙重認證&lt;/h1&gt;
-&lt;p&gt;使用 Authy App認證，在Github帳號下的Setting中以Password and authentication啟用雙重認證&lt;/p&gt;
-&lt;h1&gt;學習如何編輯/更新網誌&lt;/h1&gt;
+&lt;h1&gt;7.學習如何編輯/更新網誌&lt;/h1&gt;
 &lt;iframe width="1120" height="631" src="https://www.youtube.com/embed/boTF4TcdFLg" title="cd2024 2a 1 blog setup 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;影片連結:&lt;a href="https://youtu.be/boTF4TcdFLg"&gt;連結&lt;/a&gt; (https://youtu.be/boTF4TcdFLg)&lt;/p&gt;</content><category term="四設二甲"></category><category term="網誌編寫"></category><category term="pelican(項目)"></category></entry><entry><title>2024 Spring 課程</title><link href="https://41123108.github.io/cd2024/blog/2024-Spring-w1-blog-tutorial.html" rel="alternate"></link><published>2024-02-18T11:00:00+08:00</published><updated>2024-05-31T06:04:21+08:00</updated><author><name>kmol</name></author><id>tag:41123108.github.io,2024-02-18:/cd2024/blog/2024-Spring-w1-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+
+&lt;h1&gt;8.設定 Github 帳號的雙重認證&lt;/h1&gt;
+&lt;p&gt;使用 Authy App認證，在Github帳號下的Setting中以Password and authentication啟用雙重認證
+說明：手機必須先安裝 Github Mobile, 也可以使用 Authy App 作為認證套件, 一旦在 Github 帳號下的 Setting 中的 Password and authentication 啟用雙重認證, 最後必須下載對應的 Recovery codes 並存入隨身碟, 而且要寄到個人的電子郵箱.&lt;/p&gt;</content><category term="四設二甲"></category><category term="網誌編寫"></category><category term="pelican(項目)"></category></entry><entry><title>2024 Spring 課程</title><link href="https://41123108.github.io/cd2024/blog/2024-Spring-w1-blog-tutorial.html" rel="alternate"></link><published>2024-02-18T11:00:00+08:00</published><updated>2024-05-31T06:04:21+08:00</updated><author><name>kmol</name></author><id>tag:41123108.github.io,2024-02-18:/cd2024/blog/2024-Spring-w1-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 
