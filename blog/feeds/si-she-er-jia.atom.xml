@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習41123108 - 四設二甲</title><link href="https://41123108.github.io/cd2024/blog/" rel="alternate"></link><link href="https://41123108.github.io/cd2024/blog/feeds/si-she-er-jia.atom.xml" rel="self"></link><id>https://41123108.github.io/cd2024/blog/</id><updated>2024-06-02T05:56:06+08:00</updated><entry><title>W14</title><link href="https://41123108.github.io/cd2024/blog/W15%E5%85%A7%E5%AE%B9.html" rel="alternate"></link><published>2024-05-31T14:00:00+08:00</published><updated>2024-05-31T06:27:19+08:00</updated><author><name>41123108</name></author><id>tag:41123108.github.io,2024-05-31:/cd2024/blog/W15內容.html</id><summary type="html">&lt;p&gt;2024/05/24 課程內容(W15)&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習41123108 - 四設二甲</title><link href="https://41123108.github.io/cd2024/blog/" rel="alternate"></link><link href="https://41123108.github.io/cd2024/blog/feeds/si-she-er-jia.atom.xml" rel="self"></link><id>https://41123108.github.io/cd2024/blog/</id><updated>2024-06-07T15:00:00+08:00</updated><entry><title>W16</title><link href="https://41123108.github.io/cd2024/blog/W16%E5%85%A7%E5%AE%B9.html" rel="alternate"></link><published>2024-06-07T15:00:00+08:00</published><updated>2024-06-07T07:40:42+08:00</updated><author><name>41123108</name></author><id>tag:41123108.github.io,2024-06-07:/cd2024/blog/W16內容.html</id><summary type="html">&lt;p&gt;2024/05/24 課程內容(W16)&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2024/05/24 課程內容(W16)&lt;/p&gt;
+
+
+&lt;h1&gt;填寫自評表單&lt;/h1&gt;
+&lt;p&gt;到老師倉儲https://github.com/mdecycu/cd2024/discussions/18 點選discussions開啟表單&lt;a href="https://forms.gle/hqoW6uv8CgBmeFQ87"&gt;連結&lt;/a&gt;&lt;/p&gt;</content><category term="四設二甲"></category></entry><entry><title>W15</title><link href="https://41123108.github.io/cd2024/blog/W15%E5%85%A7%E5%AE%B9.html" rel="alternate"></link><published>2024-05-31T14:00:00+08:00</published><updated>2024-06-07T06:39:12+08:00</updated><author><name>41123108</name></author><id>tag:41123108.github.io,2024-05-31:/cd2024/blog/W15內容.html</id><summary type="html">&lt;p&gt;2024/05/24 課程內容(W15)&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024/05/24 課程內容(W15)&lt;/p&gt;
 
 
@@ -91,7 +96,7 @@
 &lt;p&gt;使群組內所有成員獲得群組倉儲之權限&lt;a href="https://github.com/mdecd2024/2a-midag2"&gt;群組倉儲連結&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;期中分組報告&lt;/h1&gt;
 &lt;p&gt;41123108 分配負責頁數為23-33頁
-期中分組報告(翻譯)&lt;a href="https://drive.google.com/file/d/1T730aViogLh13BpVOXAH6eSVbVI5Gnwq/view?usp=sharing"&gt;報告連結&lt;/a&gt;&lt;/p&gt;</content><category term="四設二甲"></category><category term="網誌編寫"></category></entry><entry><title>W2</title><link href="https://41123108.github.io/cd2024/blog/W2%E5%85%A7%E5%AE%B9.html" rel="alternate"></link><published>2024-03-01T15:00:00+08:00</published><updated>2024-06-02T05:56:06+08:00</updated><author><name>41123108</name></author><id>tag:41123108.github.io,2024-03-01:/cd2024/blog/W2內容.html</id><summary type="html">&lt;p&gt;2024/03/01 課程內容(W2)&lt;/p&gt;
+期中分組報告(翻譯)&lt;a href="https://drive.google.com/file/d/1T730aViogLh13BpVOXAH6eSVbVI5Gnwq/view?usp=sharing"&gt;報告連結&lt;/a&gt;&lt;/p&gt;</content><category term="四設二甲"></category><category term="網誌編寫"></category></entry><entry><title>W2</title><link href="https://41123108.github.io/cd2024/blog/W2%E5%85%A7%E5%AE%B9.html" rel="alternate"></link><published>2024-03-01T15:00:00+08:00</published><updated>2024-06-02T06:26:13+08:00</updated><author><name>41123108</name></author><id>tag:41123108.github.io,2024-03-01:/cd2024/blog/W2內容.html</id><summary type="html">&lt;p&gt;2024/03/01 課程內容(W2)&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024/03/01 課程內容(W2)&lt;/p&gt;
 
 
@@ -99,8 +104,8 @@
 &lt;p&gt;主要利用 Github Classroom 進行協同分組
 經由組長建立各組的Team midag，再讓組員自行加入
 群組2a-midag2的GitHub連結：&lt;a href="https://github.com/mdecd2024/2a-midag2"&gt;倉儲連結&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;*組長操作(難)：
-1.說明甲班第一組組長如何建立 midag1 Team, 並利用 Codespaces 維護 2a-midag1 分組倉儲
+&lt;p&gt;*組長操作(難)：&lt;/p&gt;
+&lt;p&gt;1.說明甲班第一組組長如何建立 midag1 Team, 並利用 Codespaces 維護 2a-midag1 分組倉儲
 &lt;a href="https://nfuedu-my.sharepoint.com/:v:/r/personal/yen_nfu_edu_tw/Documents/2024/cd2024/video/cd2024_2a_w2_3_%E5%A6%82%E4%BD%95%E5%BB%BA%E7%AB%8B%E5%90%84%E7%B5%84%E7%9A%84%20Team%20midag1%20%E4%B8%A6%E5%88%A9%E7%94%A8%20Codespaces%20%E7%B6%AD%E8%AD%B7%E5%85%A7%E5%AE%B9.mp4?csf=1&amp;amp;web=1&amp;amp;e=GpJvE9&amp;amp;nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D"&gt;影片網址1&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;/細節說明(擷取自老師blog)：
 由於各分組網站從 Github Classroom 執行配置, 因此該倉儲位於 mdecd2024 帳號下, 雖然各組組員具備對此分組倉儲改版的權限, 但是若將分組倉儲 import 到 Replit, 因為其倉儲擁有者為 mdecd2024, 因此無法從 Replit accoount 項下進行授權, 但是可以利用 ssh-keygen 建立 .ssh 目錄下的 id_rsa 與 id_rsa.pub, 之後除了將公鑰送到 Github 之外, 還需要在 .ssh 目錄中建立 config, 且將倉儲 .git/config 中的 https 協定改為 SSH.
