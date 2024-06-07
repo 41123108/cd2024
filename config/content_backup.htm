@@ -73,8 +73,13 @@
 <p>8.設定 Github 帳號的雙重認證</p>
 <p>使用 Authy App認證，在Github帳號下的Setting中以Password and authentication啟用雙重認證, <a href="https://nfuedu-my.sharepoint.com/:v:/g/personal/yen_nfu_edu_tw/EQkTC4PryY5KrohZdneAygIB1d2FCzwpl2tn8cdyG-Q8Vg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;e=L28Ued">說明如何設定 Github 雙重認證</a>, 其中手機必須先安裝<span> </span><a href="https://github.com/mobile">Github Mobile</a>, 也可以使用<span> </span><a href="https://authy.com/download/">Authy App</a><span> </span>作為認證套件, 一旦在 Github 帳號下的 Setting 中的 Password and authentication 啟用雙重認證, 最後必須下載對應的 Recovery codes 並存入隨身碟, 而且要寄到個人的電子郵箱.</p>
 <h2>Ｗ2</h2>
-<p></p>
-<p></p>
+<p># 加入分組2a-midag2<br/>主要利用 Github Classroom 進行協同分組<br/>經由組長建立各組的Team midag，再讓組員自行加入<br/>群組2a-midag2的GitHub連結：[倉儲連結]<br/>[倉儲連結]:https://github.com/mdecd2024/2a-midag2</p>
+<p>*組長操作(難)：<br/>1.說明甲班第一組組長如何建立 midag1 Team, 並利用 Codespaces 維護 2a-midag1 分組倉儲<br/>[影片網址1]:<a href="https://nfuedu-my.sharepoint.com/:v:/r/personal/yen_nfu_edu_tw/Documents/2024/cd2024/video/cd2024_2a_w2_3_%E5%A6%82%E4%BD%95%E5%BB%BA%E7%AB%8B%E5%90%84%E7%B5%84%E7%9A%84%20Team%20midag1%20%E4%B8%A6%E5%88%A9%E7%94%A8%20Codespaces%20%E7%B6%AD%E8%AD%B7%E5%85%A7%E5%AE%B9.mp4?csf=1&amp;web=1&amp;e=GpJvE9&amp;nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">https://nfuedu-my.sharepoint.com/:v:/r/personal/yen_nfu_edu_tw/Documents/2024/cd2024/video/cd2024_2a_w2_3_%E5%A6%82%E4%BD%95%E5%BB%BA%E7%AB%8B%E5%90%84%E7%B5%84%E7%9A%84%20Team%20midag1%20%E4%B8%A6%E5%88%A9%E7%94%A8%20Codespaces%20%E7%B6%AD%E8%AD%B7%E5%85%A7%E5%AE%B9.mp4?csf=1&amp;web=1&amp;e=GpJvE9&amp;nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</a></p>
+<p>/細節說明(擷取自老師blog)：<br/>由於各分組網站從 Github Classroom 執行配置, 因此該倉儲位於 mdecd2024 帳號下, 雖然各組組員具備對此分組倉儲改版的權限, 但是若將分組倉儲 import 到 Replit, 因為其倉儲擁有者為 mdecd2024, 因此無法從 Replit accoount 項下進行授權, 但是可以利用 ssh-keygen 建立 .ssh 目錄下的 id_rsa 與 id_rsa.pub, 之後除了將公鑰送到 Github 之外, 還需要在 .ssh 目錄中建立 config, 且將倉儲 .git/config 中的 https 協定改為 SSH.<br/>根據上述流程, 可以在 Replit 中以 SSH 模式取得對 Github 帳號下特定倉儲的改版全縣, 只不過 Replit 的免費帳號環境會不定時刪除 /home/runner/.ssh 目錄中的授權資料, 因此若要使用 Replit 維護從 Github Classroom 取得授權的分組倉儲, 必須使用程式方法配置 .ssh 中的 id_rsa 與 config 檔案.</p>
+<p>2.學習使用 Replit 管理從 Classroom 取得的分組倉儲<br/>影片說明(不太理解)：<iframe allowfullscreen="allowfullscreen" frameborder="0" height="360" scrolling="no" src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=921fbe09-bf6b-4ce9-aa92-a08d6797871b&amp;embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&amp;referrer=StreamWebApp&amp;referrerScenario=EmbedDialog.Create" title="cd2024_2a_w2_4_利用 Replit 管理 Github Classroom 分組倉儲.mp4" width="640"></iframe>*<br/>待各分組的期中報告 Team 與倉儲全部建立就緒後, 則甲班學員後續可配合期末作業名稱 2a2, 由甲班各組組長建立 Team finalag1, finalag2 ....等.(嗯???...)</p>
+<p><br/># 利用Codespaces維護群組倉儲內容<br/>教學影片：<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="631" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/mx8A_qwlTik" title="cd2024 2a w2 3 如何建立各組的 Team midag1 並利用 Codespaces 維護內容 3" width="1120"></iframe></p>
+<p># 利用近端可攜系統維護分組網站(待學)<br/>學習使用一二年級所學的維護方式打開 puttty.exe (PuTTY) 操作<br/>影片說明(不太理解)：<iframe allowfullscreen="allowfullscreen" frameborder="0" height="360" scrolling="no" src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=45d501f1-1610-44db-bbe8-cb62901a7e5b&amp;embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&amp;referrer=StreamWebApp&amp;referrerScenario=EmbedDialog.Create" title="cd2024_2a_w2_5 如何利用近端可攜環境與外部 IPv4 開啟動態網站.mp4" width="640"></iframe></p>
+<p># 乙班-設定網誌<br/>利用 [OBS] 加上廣播系統錄製的-設定個人倉儲中的 Pelican 網誌<iframe allowfullscreen="allowfullscreen" frameborder="0" height="360" scrolling="no" src="https://nfuedu-my.sharepoint.com/personal/yen_nfu_edu_tw/_layouts/15/embed.aspx?UniqueId=18850093-faee-4db7-ad4c-64f6994e8252&amp;embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&amp;referrer=StreamWebApp&amp;referrerScenario=EmbedDialog.Create" title="cd2024_2a_1_blog_setup.mp4" width="640"></iframe></p>
 <h2>Ｗ３</h2>
 <p></p>
 <p></p>
@@ -203,12 +208,12 @@ brython({debug:1, pythonpath:['/static/','./../downloads/py/']});
 <p>從 1 累加到 100:</p>
 <p><button id="add1to100">1 add to 100</button></p>
 <p>將 iterable 與 iterator <a href="https://home.gamer.com.tw/creationDetail.php?sn=4337438">相關說明</a>, 利用 Brython 與 Ace Editor 整理在這個頁面.</p>
-<!-- 導入 brython 程式庫 -->
+<p><!-- 導入 brython 程式庫 --></p>
 <p>
 <script src="/static/brython.js"></script>
 <script src="/static/brython_stdlib.js"></script>
 </p>
-<!-- 啟動 Brython -->
+<p><!-- 啟動 Brython --></p>
 <p>
 <script>
 window.onload=function(){
@@ -310,7 +315,7 @@ doc["add1to100"].bind('click', add)
 </script>
 </p>
 <p><!-- add 1 to 100 結束--></p>
-<!-- editor1 開始 -->
+<p><!-- editor1 開始 --></p>
 <p><!-- 用來顯示程式碼的 editor 區域 --></p>
 <div id="kw_editor1" style="width: 600px; height: 300px;"></div>
 <p><!-- 以下的表單與按鈕與前面的 Javascript doSave 函式以及 FileSaver.min.js 互相配合 --></p>
@@ -326,7 +331,9 @@ doc["add1to100"].bind('click', add)
 <div style="width: 100%; height: 100%;"><textarea autocomplete="off" id="kw_console1"></textarea></div>
 <p><!-- Brython 程式執行的結果, 都以 brython_div1 作為切入位置 --></p>
 <div id="brython_div1"></div>
-<!-- editor1 結束 --><hr/><!-- ########################################## -->
+<p><!-- editor1 結束 --></p>
+<hr/>
+<p><!-- ########################################## --></p>
 <p>從 1 累加到 100 part2:</p>
 <p><button id="add1to100part2">1 add to 100</button><button id="cango_three_gears">cango_three_gears</button><button id="bsnake">BSnake</button><button id="aitetris">AI Tetris</button><button id="threejsblock">Rotating Block</button></p>
 <p><!-- 請注意, 這裡使用 Javascript 將 localStorage["kw_py_src2"] 中存在近端瀏覽器的程式碼, 由使用者決定存檔名稱--></p>
@@ -429,7 +436,7 @@ doc["threejsblock"].bind("click", threejsblock.do)
 </script>
 </p>
 <p><!-- add 1 to 100 part2 結束--></p>
-<!-- editor2 開始 -->
+<p><!-- editor2 開始 --></p>
 <p><!-- 用來顯示程式碼的 editor 區域 --></p>
 <div id="kw_editor2" style="width: 600px; height: 300px;"></div>
 <p><!-- 以下的表單與按鈕與前面的 Javascript doSave 函式以及 FileSaver.min.js 互相配合 --></p>
@@ -445,8 +452,8 @@ doc["threejsblock"].bind("click", threejsblock.do)
 <div style="width: 100%; height: 100%;"><textarea autocomplete="off" id="kw_console2"></textarea></div>
 <p><!-- Brython 程式執行的結果, 都以 brython_div1 作為切入位置 --></p>
 <div id="brython_div2"></div>
-<!-- editor2 結束 --><hr/>
+<p><!-- editor2 結束 --></p>
+<hr/>
 <p>
 <script src="https://unpkg.com/three@0.144.0/build/three.js" type="text/javascript"></script>
 </p>
-<p></p>
