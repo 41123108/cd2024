@@ -59,7 +59,7 @@
 <meta property="og:url" content="./W6內容.html"/>
 <meta property="og:type" content="article"/>
 <meta property="article:published_time" content="2024-03-29 16:00:00+08:00"/>
-<meta property="article:modified_time" content="2024-05-31 06:05:18.385416+08:00"/>
+<meta property="article:modified_time" content="2024-06-14 04:35:27.395628+08:00"/>
 <meta property="article:author" content="./author/41123108.html">
 <meta property="article:section" content="四設二甲"/>
 <meta property="article:tag" content="網誌編寫"/>
@@ -74,7 +74,7 @@
   "name": "W6",
   "headline": "W6",
   "datePublished": "2024-03-29 16:00:00+08:00",
-  "dateModified": "2024-05-31 06:05:18.385416+08:00",
+  "dateModified": "2024-06-14 04:35:27.395628+08:00",
   "author": {
     "@type": "Person",
     "name": "41123108",
@@ -211,7 +211,7 @@ init_mathjax();
             | <time datetime="Fri 29 March 2024">Fri 29 March 2024</time>
         </span>
         <!-- TODO : Modified check -->
-            <span class="post-meta"> | Updated on Fri 31 May 2024</span>
+            <span class="post-meta"> | Updated on Fri 14 June 2024</span>
             <div class="post-cover cover" style="background-image: url('./theme/images/post-bg.jpg')">
       </div>
     </header>
@@ -234,8 +234,65 @@ init_mathjax();
                 <p>2024/03/29 課程內容(W6)</p>
 
 
-<h1></h1>
-<h1></h1>
+<h1>Github Actions 帶有子模組的 main.yml 設定</h1>
+<p>加入取子模組內容的 <a href="https://github.com/mdecd2024/2b-midbg4/blob/02599cb79d65cb1f48186c2db59b5dc9d812f599/.github/workflows/main.yml">main.yml</a> 設定</p>
+<p>on:
+  push:
+    branches: [pdf]
+  pull_request:
+    branches: [pdf]
+  workflow_dispatch:</p>
+<p>jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.1.1
+      - name: Install texlive and related fonts
+        run: |
+          sudo apt install -y texlive texlive-xetex texlive-lang-chinese gsfonts fonts-moe-standard-kai ttf-mscorefonts-installer librsvg2-bin texlive-fonts-extra 
+      - name: Initialize submodules
+        run: git submodule update --init --recursive
+      - name: Test LaTeX
+        working-directory: ./latex
+        run: |
+          xelatex cd_report.tex
+          xelatex cd_report.tex
+          xelatex cd_report.tex
+      - name: Bump version and push tag
+        id: tag_version
+        uses: mathieudutour/github-tag-action@v6.1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create Release
+        id: create_release
+        uses: comnoco/create-release-action@v2.0.5
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ steps.tag_version.outputs.new_tag }}
+          release_name: Release ${{ steps.tag_version.outputs.new_tag }}
+          draft: false
+          prerelease: false
+      - name: Upload Release Asset
+        id: upload-release-asset 
+        uses: shogo82148/actions-upload-release-asset@v1.7.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }} 
+          asset_path: ./latex/cd_report.pdf
+          asset_name: cd_report.pdf
+          asset_content_type: pdf
+其中加入取子模組內容的設定為:</p>
+<ul>
+<li>name: Initialize submodules
+  run: git submodule update --init --recursive
+<a href="https://github.com/mdecd2024/2b-midbg4/blob/02599cb79d65cb1f48186c2db59b5dc9d812f599/latex/cd_report.tex">2b-midbg4 cd_report.tex</a> 中的範例報告第一章, 取自其組員分組網站中的 latex 目錄, 且圖片檔案也是沿用分組倉儲中的設定, 取自組員 images 目錄.</li>
+</ul>
+<h1>更新分組倉儲中的分組倉儲</h1>
+<p><a href="https://youtu.be/BtYUHe8Actk">cd2024 2a w6 取下子模組, 以及更新學員倉儲內容</a></p>
+<p>使用 <a href="https://portableapps.com/apps/music_video/audacity_portable">Audacity</a> 與 <a href="https://portableapps.com/apps/music_video/openshot-portable">Openshot</a> 將音軌的雜音消除後, 輸出為以下的<a href="https://youtu.be/tE5MZzl_7P8">影片</a>：</p>
+<p><a href="https://youtu.be/XkImjlZSGGk">cd2024 2a w6 利用 pelicanconf py 整合各組員的網誌</a></p>
             </section>
 
             <section class="post-info">
